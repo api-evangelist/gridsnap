@@ -1,22 +1,58 @@
 aid: gridsnap
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gridsnap.png
 name: Gridsnap
-description: Gridsnap is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Gridsnap is a Los Angeles-based gaming studio founded in 2024 and part of
+  the a16z Speedrun Cohort 002. The studio builds interactive worlds for community,
+  powered by user-generated content (UGC), primarily using Unreal Editor for Fortnite
+  (UEFN). Its work spans three areas - developing original IP, partnering with influencers
+  to create community spaces inside Fortnite, and investing in emerging game developers
+  by taking stakes in their projects while providing development support. Gridsnap
+  publishes no public API, developer portal, SDKs, or documentation; this profile is
+  a company identity record in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/gridsnap/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- a16z Speedrun
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
+x-founded: '2024'
+x-location: Los Angeles, California, United States
+x-industry: Gaming
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Gaming
+- Video Games
+- Game Studio
+- User-Generated Content
+- Fortnite
+- Interactive Entertainment
 apis: []
+common:
+- type: Website
+  url: https://www.gridsnap.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
